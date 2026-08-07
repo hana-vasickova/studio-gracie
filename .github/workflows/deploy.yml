@@ -24,11 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-<<<<<<< HEAD
-          node-version: 20
-=======
           node-version: 24
->>>>>>> cc2c64d (add: github deploy action)
           cache: npm
 
       - name: Install dependencies
